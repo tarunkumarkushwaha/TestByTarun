@@ -34,7 +34,7 @@ const Test = () => {
     ui: dark ?
       "bg-slate-700"
       :
-      "bg-gradient-to-b from-green-50 to-green-200 "
+      "bg-slate-700"
   }
 
   const checkAns = () => {

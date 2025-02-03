@@ -21,7 +21,7 @@ const SingleQuestion = ({ question, response, setresponse, disabled, selected, s
             key={i}
             onClick={() => handleSelect(item, i)}
             className={`cursor-pointer rounded-lg border-cyan-400 border-2 p-3 transition-all duration-200 ${
-              selected === i ? "bg-lime-400 border-green-600 border-2" : "bg-white"
+              selected === i ? "bg-lime-400 border-orange-600 border-2" : "bg-white"
             } hover:bg-cyan-300`}
           >
             <p className={`text-lg font-semibold ${disabled ? (item.is_correct ? "text-green-600" : "text-red-600") : "text-gray-700"}`}>

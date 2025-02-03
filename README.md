@@ -1,8 +1,23 @@
-# React + Vite
+# Test app by tarun
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+live link -- https://taruntestapp.netlify.app/
 
-Currently, two official plugins are available:
+# Test App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a web application built using React, Tailwind CSS, and Material UI, designed to provide a responsive and user-friendly testing experience. It includes features like real-time notifications and anti-cheat measures.
+
+## Technologies Used
+
+* **React:** 
+* **Tailwind CSS:**
+* **Material UI:** 
+* **React Toastify:** 
+
+## Features
+
+* **Responsive Design:** The layout is optimized for viewing on mobile phones, tablets, and desktop computers, ensuring a consistent user experience across different devices.
+* **Anti-Cheat Features:**  [Describe the specific anti-cheat measures implemented.  Be as detailed as possible without revealing vulnerabilities. Examples below:]
+    * user cant minimise page if he does the test is auto submitted.
+    * Typing is disabled.
+    * user cant leave page if he leaves the test is auto submitted.
+* **Automated Test Submission:** The test automatically submits when the allotted time expires.

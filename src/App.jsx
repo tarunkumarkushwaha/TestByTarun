@@ -28,7 +28,7 @@ function App() {
   const [incorrectresponse, setincorrectresponse] = useState(0)
   const [pastpercentage, setpastpercentage] = useState(0)
   const [start, setstart] = useState(false)
-  const [Data, setData] = useState({})
+  const [Data, setData] = useState()
 
   const themeChange = () => {
     dark ? localStorage.setItem('Theme', JSON.stringify(false)) : localStorage.setItem('Theme', JSON.stringify(true));

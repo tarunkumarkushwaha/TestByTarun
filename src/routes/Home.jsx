@@ -13,11 +13,11 @@ const Home = () => {
     toast.warn("test has started")
     navigate("/test")
   }
-  console.log(Data)
+  // console.log(Data)
 
   return (
     <>
-      <div className="mainbg bg-no-repeat bg-left h-screen">
+      <div className=" h-screen">
         <div className="bg-cyan-200 h-screen flex justify-center m-0 item-center flex-col">
           <div className="flex flex-col smooth-entry justify-center items-center">
             <h1 className="text-3xl md:text-6xl font-extrabold m-5">
